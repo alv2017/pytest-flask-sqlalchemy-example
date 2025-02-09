@@ -20,7 +20,7 @@ To install the project, you need to have Poetry installed. If you don't have it 
 To run the server, use the following command:
 
 ```shell
-$ poetry run python user_manager/app.py
+$ poetry run python main.py
 ```
 
 This will spin up the server at `http://localhost:5000`

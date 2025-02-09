@@ -1,6 +1,6 @@
 import pytest
 import random
-from app import create_app
+from user_manager.app import create_app
 
 
 @pytest.fixture(scope="session")
