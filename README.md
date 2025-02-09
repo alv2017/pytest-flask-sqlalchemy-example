@@ -23,6 +23,12 @@ To run the server, use the following command:
 $ poetry run python main.py
 ```
 
+or 
+
+```
+$ poetry run flask --app user_manager.app
+```
+
 This will spin up the server at `http://localhost:5000`
 
 ### How To Run the Tests
@@ -36,4 +42,4 @@ $ poetry run pytest --dburl=postgresql://myuser:mypassword@localhost:5433/mydata
 
 Please follow further instructions on how to run the app in the [blog post](https://pytest-with-eric.com/api-testing/pytest-flask-postgresql-testing/).
 
-If you have any questions about the project please raise an Issue on GitHub.
+If you have any questions about the project please raise an Issue on GitHub.$ poetry run pytest tests/mocking/test_user_manager_mocked.py -v -s
